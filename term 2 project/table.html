@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+
+
+	<head>
+
+
+
+		<style>
+
+
+
+			 a:link {
+
+
+
+	   color: black;
+
+
+
+	   }
+
+
+
+	   
+
+
+
+	   a:visited {
+
+
+
+	   color: grey;
+
+
+
+	   }
+
+
+
+	    body {
+
+
+
+				background-color: #FFFF00;
+
+
+
+				font-family: Verdana;
+
+
+
+				background-image: url('wp2.jpg')
+
+				
+
+			}
+
+			
+
+			div {
+
+
+
+		background-color: #FFD0D4;
+
+
+
+			margin-left:auto;
+
+
+
+			margin-right:auto;
+
+
+
+			margin-top:40px;
+
+
+
+			
+
+
+
+			padding:20px;
+
+
+
+			border-radius:20px;
+
+
+
+			width: 700px;
+
+
+
+		
+
+
+
+		
+
+
+
+			
+
+
+
+		 }
+
+
+
+
+
+
+
+			.container {
+
+
+
+				width: 750px;
+
+
+
+				background-color: #fff;
+
+
+
+				border: 10px solid #000;
+
+
+
+				margin-left: auto;
+
+
+
+				margin-right: auto;
+
+margin-top:300px;
+
+				height: 700px;
+
+					box-shadow:10px 10px 10px #D9FB19;
+
+
+
+			}
+
+
+
+
+
+
+
+			.content {
+
+
+
+				width: 660px;
+
+
+
+				padding: 20px;
+
+
+
+			}
+
+
+
+
+
+
+
+			p {	
+
+
+
+				line-height: 1.5em;
+
+
+
+				font-size: 14pt;
+
+
+
+			}
+
+
+
+			
+
+
+
+			img {
+
+
+
+				
+				margin:20px;
+width:100px;
+height:100px;
+
+
+				
+
+
+
+			}
+
+
+
+            ul{
+
+
+
+			list-style-type: none;
+
+
+
+			background-color: #333;
+
+
+
+			margin:0px;
+
+
+
+			overflow:hidden;
+
+
+
+			padding:0px;
+
+
+
+			}
+
+
+
+			li{
+
+
+
+			float:left;
+
+
+
+			width:175px;
+
+
+
+			
+
+
+
+			}
+
+
+
+			li a {
+
+
+
+			display:block;
+
+
+
+			color:white;
+
+
+
+			text-decoration: none;
+
+
+
+			padding:14px 16px;
+
+
+
+			
+
+
+
+			}
+
+
+
+			
+
+
+
+			li a:hover:not(current) {
+
+
+
+			background-color: #111;
+
+
+
+			}
+
+
+
+			.current {
+
+
+
+			background-color:orange;
+
+
+
+			}
+
+
+
+			
+
+
+
+			
+
+		 table, th, td{
+
+
+
+		border-bottom: 1px solid #DDDDDD;
+
+
+
+		text-align: center;
+
+
+
+		}
+
+
+
+		table
+
+
+
+		border-collapse: collapse;
+
+
+
+		width: 200px;
+
+
+
+		}
+
+
+
+		tr:nth-child(even) {
+
+
+
+		 background-color:DDD;
+
+
+
+		 }
+
+
+
+		tr:nth-child(odd)
+
+
+
+		 background-color:EEE;
+
+
+
+		 }
+
+
+
+		 td: hover {
+
+
+
+		 background-color:#047A4A;
+
+
+
+		 color: white;
+
+
+
+		 }
+
+
+
+		 th, td{
+
+
+
+		 padding: 10px;
+
+
+
+		 }
+
+
+
+		 th {
+
+
+
+		 background-color:black;
+
+
+
+		 color: white;
+
+
+
+		 }
+
+
+
+		</style>
+
+
+
+	</head>
+
+
+
+	
+
+
+
+	<body>
+
+
+
+
+
+
+
+	<div class="container">	
+
+
+
+			<ul>
+
+
+
+			  <li><a href="history.html">History</a></li>
+
+
+
+			  <li><a class="current" href="table.html">Table</a></li>
+
+
+
+			  <li><a href="gameplay.html">Gameplay</a></li>
+
+
+
+			  <li><a href="home.html">Home</a></li>
+
+
+
+			</ul>
+
+
+
+		
+
+
+
+		
+
+
+
+			<h1>Table of Barbarian</h1>
+
+
+
+			
+
+
+
+			<div>
+
+
+
+	<table>
+
+
+
+	  <tr>
+
+
+
+	    <th>Level</th><th>Demage</th><th>Health</th><th>Train Cost</th><th>Cost of Upgrade</th> <th>Time to Upgrade</th> </tr>
+		<tr>
+		<td>1</td> <td>8</td> <td>45 </td> <td>25</td> <td> /</td> <td> /</td> </tr>
+		<tr>
+		<td>2</td> <td>11</td> <td>54</td> <td>40</td> <td>50k</td> <td>6h </td> </tr>
+		<tr>
+		<td>3</td> <td>14</td> <td>	65 </td> <td>60</td> <td>150k </td> <td>1d</td> 
+		<tr>
+		<td>4 </td> <td>18 </td> <td>78</td> <td>100</td> <td>500k</td> <td>2d</td>
+		<tr>
+		<tr>
+		<td>5</td> <td>23</td> <td>95</td> <td>150</td> <td> 150w</td> <td>	3.5d</td> 
+		</tr>
+		<tr>
+		<td>6</td> <td>26</td> <td>110</td> <td>200</td> <td>450w</td> <td>4.5d</td> 
+		</tr>
+		<tr>
+		<td>7</td> <td>30</td> <td>125</td> <td> 250</td> <td>600w</td> <td>7.5d</td> 
+		</tr>
+		<tr>
+		<td>8</td> <td>34</td> <td>130</td> <td>300</td> <td>800w</td> <td>	10d</td> 
+
+
+
+		  </tr>
+
+
+
+		</table>
+
+<img src="bb1.png">
+
+<img src="bb2.png">
+		
+
+
+
+	</div>
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+				
+
+
+
+	</div>
+
+
+
+
+
+
+
+	</body>
+
+
+
+</html>
